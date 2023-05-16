@@ -1,0 +1,26 @@
+{
+  "name": "harvest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint",
+    "pm:start": "yarn pm2 start process.json"
+  },
+  "dependencies": {
+    "http": "0.0.1-security",
+    "https": "1.0.0",
+    "next": "12.1.5",
+    "pm2": "5.2.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "sharp": "0.30.4",
+    "styled-components": "5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
